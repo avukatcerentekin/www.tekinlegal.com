@@ -53,6 +53,12 @@ p  { font-size: 0.95rem; color: var(--gray); }
   display: flex; align-items: center; gap: 2rem;
 }
 .logo-link { flex: none; }
+.logo-img {
+  height: 44px;
+  width: auto;
+  display: block;
+  filter: brightness(0) invert(1);
+}
 .logo-text {
   font-family: 'Cormorant Garamond', serif;
   font-size: 1.5rem;
