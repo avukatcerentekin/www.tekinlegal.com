@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="tr" data-lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tekin Legal | Av. Ceren Tekin</title>
+  <meta name="description" content="Av. Ceren Tekin – Türk ve ABD hukuku alanında uzman avukat. İzmir merkezli, Miami/Florida'da LLM eğitimi. Turkish and US Business Law consultancy.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- NAVIGATION -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a href="#home" class="logo-link">
+        <span class="logo-text">TEKIN <span class="logo-legal">LEGAL</span></span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#about"    data-tr="Hakkımda"   data-en="About">Hakkımda</a></li>
+        <li><a href="#services" data-tr="Hizmetler"  data-en="Services">Hizmetler</a></li>
+        <li><a href="#education" data-tr="Eğitim"   data-en="Education">Eğitim</a></li>
+        <li><a href="#contact"  data-tr="İletişim"   data-en="Contact">İletişim</a></li>
+      </ul>
+      <button class="lang-toggle" onclick="toggleLang()" aria-label="Language toggle">
+        <span id="lang-label">EN</span>
+      </button>
+      <button class="hamburger" onclick="toggleMenu()" aria-label="Menu">&#9776;</button>
+    </div>
+    <ul class="mobile-menu" id="mobile-menu">
+      <li><a href="#about"    data-tr="Hakkımda"    data-en="About"     onclick="toggleMenu()">Hakkımda</a></li>
+      <li><a href="#services" data-tr="Hizmetler"   data-en="Services"  onclick="toggleMenu()">Hizmetler</a></li>
+      <li><a href="#education" data-tr="Eğitim"    data-en="Education" onclick="toggleMenu()">Eğitim</a></li>
+      <li><a href="#contact"  data-tr="İletişim"    data-en="Contact"   onclick="toggleMenu()">İletişim</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <section id="home" class="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <p class="hero-tagline" data-tr="Hukuk | Danışmanlık | Güven" data-en="Law | Consulting | Trust">Hukuk | Danışmanlık | Güven</p>
+      <h1 class="hero-name">Av. Ceren Tekin</h1>
+      <p class="hero-sub" data-tr="Türk Hukuku &amp; ABD Ticaret Hukuku Danışmanlığı" data-en="Turkish Law &amp; US Business Law Consultancy">Türk Hukuku &amp; ABD Ticaret Hukuku Danışmanlığı</p>
+      <div class="hero-badges">
+        <span data-tr="İzmir, Türkiye" data-en="İzmir, Turkey">📍 İzmir, Türkiye</span>
+        <span data-tr="Miami, Florida" data-en="Miami, Florida">📍 Miami, Florida</span>
+        <span data-tr="LLM – Miami Üniversitesi" data-en="LLM – University of Miami">🎓 LLM – Miami</span>
+      </div>
+      <a href="#contact" class="cta-btn" data-tr="İletişime Geçin" data-en="Get in Touch">İletişime Geçin</a>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section about-section">
+    <div class="container about-grid">
+      <div class="about-photo">
+        <img src="images/profile.png" alt="Av. Ceren Tekin" loading="lazy">
+      </div>
+      <div class="about-text">
+        <p class="section-label" data-tr="Hakkımda" data-en="About">Hakkımda</p>
+        <h2 data-tr="Av. Ceren Tekin" data-en="Att. Ceren Tekin">Av. Ceren Tekin</h2>
+
+        <div class="about-body" data-lang-tr>
+          <p>Hukuk alanındaki 20 yılı aşkın deneyimimi akademik perspektif, kurumsal kültür ve dava pratiğiyle harmanlıyorum. 2016 yılından bu yana <strong>Tekin Legal Office</strong>'in kurucusu ve yöneticisi olarak bireysel ve kurumsal müvekkillere ticaret hukuku, iş hukuku ve fikri mülkiyet hukuku başta olmak üzere farklı hukuk alanlarında danışmanlık vermekteyim.</p>
+          <p>Türk Patent Enstitüsü bünyesinde kayıtlı <strong>marka vekili</strong> sıfatıyla marka tescil süreçlerinde de müvekkillere rehberlik etmekteyim.</p>
+          <p>Hâlihazırda <strong>Miami Üniversitesi'nde LLM</strong> (Hukuk Yüksek Lisansı) programını sürdürmekteyim. Bu süreçte müvekkillerime ABD ticaret hukuku alanında da <strong>uluslararası danışmanlık</strong> hizmeti sunmaya başladım.</p>
+          <p>Uluslararası çalışma deneyimim; Frankfurt'ta Arnecke Sibeth Hukuk Bürosu'nda staj, Almanya'da Erasmus araştırmacı öğrenciliği ve Japan Tobacco International'da avukatlık görevini kapsamaktadır.</p>
+        </div>
+
+        <div class="about-body" data-lang-en style="display:none">
+          <p>I blend over 20 years of legal experience with academic perspectives, corporate culture and litigation practice. Since 2016, as the founder and manager of <strong>Tekin Legal Office</strong>, I provide consultancy to individual and corporate clients in commercial law, labour law and intellectual property law.</p>
+          <p>As a registered <strong>trademark attorney</strong> under the Turkish Patent Institute, I also guide clients through trademark registration processes.</p>
+          <p>I am currently pursuing an <strong>LLM at the University of Miami</strong>. During this period, I have expanded my practice to include <strong>international consultancy on US business law</strong> for clients seeking to operate in or with the United States.</p>
+          <p>My international experience includes a traineeship at Arnecke Sibeth in Frankfurt, an Erasmus research studentship in Germany, and an in-house legal role at Japan Tobacco International.</p>
+        </div>
+
+        <div class="about-skills">
+          <span>GDPR</span>
+          <span data-tr="Sözleşme Yönetimi" data-en="Contract Management">Sözleşme Yönetimi</span>
+          <span data-tr="Fikri Mülkiyet" data-en="Intellectual Property">Fikri Mülkiyet</span>
+          <span data-tr="İş Hukuku" data-en="Labour Law">İş Hukuku</span>
+          <span data-tr="Tüketici Hukuku" data-en="Consumer Law">Tüketici Hukuku</span>
+          <span data-tr="ABD Ticaret Hukuku" data-en="US Business Law">ABD Ticaret Hukuku</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section id="services" class="section services-section">
+    <div class="container">
+      <p class="section-label center" data-tr="Hizmetler" data-en="Services">Hizmetler</p>
+      <h2 class="center" data-tr="Uzmanlık Alanları" data-en="Areas of Expertise">Uzmanlık Alanları</h2>
+
+      <div class="services-tabs">
+        <button class="tab-btn active" onclick="switchTab(event,'personal')" data-tr="Bireysel Danışmanlık" data-en="Personal Consulting">Bireysel Danışmanlık</button>
+        <button class="tab-btn" onclick="switchTab(event,'corporate')" data-tr="Kurumsal Danışmanlık" data-en="Corporate Consulting">Kurumsal Danışmanlık</button>
+        <button class="tab-btn" onclick="switchTab(event,'us')" data-tr="ABD Hukuku" data-en="US Law">ABD Hukuku</button>
+      </div>
+
+      <div class="tab-panel active" id="tab-personal">
+        <div class="services-grid">
+          <div class="service-card">
+            <div class="service-icon">⚖️</div>
+            <h3 data-tr="İş Hukuku" data-en="Labour Law">İş Hukuku</h3>
+            <p data-tr="İşe alım, fesih, kıdem ve ihbar tazminatı, iş kazaları ve işçi-işveren uyuşmazlıkları." data-en="Recruitment, termination, severance, workplace accidents and employee-employer disputes.">İşe alım, fesih, kıdem ve ihbar tazminatı, iş kazaları ve işçi-işveren uyuşmazlıkları.</p>
+          </div>
+          <div class="service-card">
+            <div class="service-icon">🏷️</div>
+            <h3 data-tr="Marka Vekilliği" data-en="Trademark Attorney">Marka Vekilliği</h3>
+            <p data-tr="Türkiye ve uluslararası marka tescili, itiraz süreçleri ve marka ihlali davaları." data-en="Trademark registration in Turkey and internationally, opposition proceedings and infringement cases.">Türkiye ve uluslararası marka tescili, itiraz süreçleri ve marka ihlali davaları.</p>
+          </div>
+          <div class="service-card">
+            <div class="service-icon">🛡️</div>
+            <h3 data-tr="Tüketici Hukuku" data-en="Consumer Law">Tüketici Hukuku</h3>
+            <p data-tr="Tüketici hakları, iade, garanti ve ayıplı mal/hizmet uyuşmazlıkları." data-en="Consumer rights, returns, warranty and defective goods/services disputes.">Tüketici hakları, iade, garanti ve ayıplı mal/hizmet uyuşmazlıkları.</p>
+          </div>
+          <div class="service-card">
+            <div class="service-icon">🔒</div>
+            <h3>GDPR / KVKK</h3>
+            <p data-tr="Kişisel verilerin korunması, uyumluluk danışmanlığı ve veri ihlali yönetimi." data-en="Personal data protection, compliance consultancy and data breach management.">Kişisel verilerin korunması, uyumluluk danışmanlığı ve veri ihlali yönetimi.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="tab-panel" id="tab-corporate" style="display:none">
+        <div class="services-grid">
+          <div class="service-card">
+            <div class="service-icon">📋</div>
+            <h3 data-tr="Ticaret Hukuku" data-en="Commercial Law">Ticaret Hukuku</h3>
+            <p data-tr="Şirket kuruluşu, birleşme-devralma, sözleşme müzakeresi ve ticari uyuşmazlıklar." data-en="Company formation, mergers &amp; acquisitions, contract negotiation and commercial disputes.">Şirket kuruluşu, birleşme-devralma, sözleşme müzakeresi ve ticari uyuşmazlıklar.</p>
+          </div>
+          <div class="service-card">
+            <div class="service-icon">💼</div>
+            <h3 data-tr="Sözleşme Yönetimi" data-en="Contract Management">Sözleşme Yönetimi</h3>
+            <p data-tr="Sözleşme hazırlama, inceleme, müzakere ve yaşam döngüsü yönetimi." data-en="Contract drafting, review, negotiation and lifecycle management.">Sözleşme hazırlama, inceleme, müzakere ve yaşam döngüsü yönetimi.</p>
+          </div>
+          <div class="service-card">
+            <div class="service-icon">🌐</div>
+            <h3 data-tr="Fikri Mülkiyet" data-en="Intellectual Property">Fikri Mülkiyet</h3>
+            <p data-tr="Patent, telif hakkı, ticari sır ve know-how koruması." data-en="Patents, copyright, trade secrets and know-how protection.">Patent, telif hakkı, ticari sır ve know-how koruması.</p>
+          </div>
+          <div class="service-card">
+            <div class="service-icon">🤝</div>
+            <h3 data-tr="Hukuki Rapor" data-en="Legal Reporting">Hukuki Rapor</h3>
+            <p data-tr="Mevzuat takibi, risk analizi ve yönetim kuruluna hukuki görüş sunumu." data-en="Legislation monitoring, risk analysis and legal opinions for management boards.">Mevzuat takibi, risk analizi ve yönetim kuruluna hukuki görüş sunumu.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="tab-panel" id="tab-us" style="display:none">
+        <div class="services-grid">
+          <div class="service-card highlight">
+            <div class="service-icon">🇺🇸</div>
+            <h3 data-tr="ABD'de Şirket Kurma" data-en="US Company Formation">ABD'de Şirket Kurma</h3>
+            <p data-tr="Florida ve diğer eyaletlerde LLC, Corporation ve ortaklık yapılarının kurulumu ve yönetimi." data-en="Formation and management of LLCs, Corporations and partnerships in Florida and other states.">Florida ve diğer eyaletlerde LLC, Corporation ve ortaklık yapılarının kurulumu ve yönetimi.</p>
+          </div>
+          <div class="service-card highlight">
+            <div class="service-icon">📝</div>
+            <h3 data-tr="Uluslararası Sözleşmeler" data-en="International Contracts">Uluslararası Sözleşmeler</h3>
+            <p data-tr="Türk-Amerikan iş ilişkilerinde sözleşme hazırlama ve müzakere." data-en="Contract drafting and negotiation in Turkish-American business relations.">Türk-Amerikan iş ilişkilerinde sözleşme hazırlama ve müzakere.</p>
+          </div>
+          <div class="service-card highlight">
+            <div class="service-icon">🔗</div>
+            <h3 data-tr="Uluslararası Ticaret" data-en="Cross-Border Trade">Uluslararası Ticaret</h3>
+            <p data-tr="ABD-Türkiye arasında ticaret, ihracat/ithalat ve uyumluluk danışmanlığı." data-en="Trade between Turkey and the US, export/import and compliance consultancy.">ABD-Türkiye arasında ticaret, ihracat/ithalat ve uyumluluk danışmanlığı.</p>
+          </div>
+          <div class="service-card highlight">
+            <div class="service-icon">⚖️</div>
+            <h3 data-tr="Uluslararası Tahkim" data-en="International Arbitration">Uluslararası Tahkim</h3>
+            <p data-tr="Uluslararası ticari uyuşmazlıklarda arabuluculuk ve tahkim süreçleri." data-en="Mediation and arbitration in international commercial disputes.">Uluslararası ticari uyuşmazlıklarda arabuluculuk ve tahkim süreçleri.</p>
+          </div>
+        </div>
+        <p class="us-note" data-tr="* ABD hukuku alanındaki danışmanlık hizmetleri, devam eden LLM eğitimi kapsamında sunulmakta olup lisanslı ABD avukatı işbirliğiyle yürütülmektedir." data-en="* US law consultancy is provided within the scope of ongoing LLM studies and is conducted in cooperation with a licensed US attorney.">* ABD hukuku alanındaki danışmanlık hizmetleri, devam eden LLM eğitimi kapsamında sunulmakta olup lisanslı ABD avukatı işbirliğiyle yürütülmektedir.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section id="education" class="section education-section">
+    <div class="container">
+      <p class="section-label center" data-tr="Eğitim &amp; Deneyim" data-en="Education &amp; Experience">Eğitim &amp; Deneyim</p>
+      <h2 class="center" data-tr="Akademik Geçmiş" data-en="Academic Background">Akademik Geçmiş</h2>
+      <div class="timeline">
+
+        <div class="timeline-item current">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-year">2024 – devam</span>
+            <h3 data-tr="LLM – Hukuk Yüksek Lisansı" data-en="LLM – Master of Laws">LLM – Hukuk Yüksek Lisansı</h3>
+            <p data-tr="Miami Üniversitesi | Miami, Florida, ABD" data-en="University of Miami | Miami, Florida, USA">Miami Üniversitesi | Miami, Florida, ABD</p>
+            <span class="badge new" data-tr="Devam Ediyor" data-en="Ongoing">Devam Ediyor</span>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-year">2004 – 2005</span>
+            <h3 data-tr="AB Hukuku Yüksek Lisansı" data-en="European Union Law Master's">AB Hukuku Yüksek Lisansı</h3>
+            <p data-tr="Dokuz Eylül Üniversitesi &amp; Justus Liebig Üniversitesi, Giessen – Almanya" data-en="Dokuz Eylul University &amp; Justus Liebig University, Giessen – Germany">DEÜ &amp; Justus Liebig Üniversitesi, Giessen – Almanya</p>
+            <p class="thesis" data-tr="Tez: AB Hukukunda Çok Uluslu Şirketlerin İflası" data-en="Thesis: Insolvency of Multinational Companies as to EU Law"><em data-tr="Tez: AB Hukukunda Çok Uluslu Şirketlerin İflası" data-en="Thesis: Insolvency of Multinational Companies as to EU Law">Tez: AB Hukukunda Çok Uluslu Şirketlerin İflası</em></p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-year">1998 – 2002</span>
+            <h3 data-tr="Hukuk Fakültesi" data-en="Faculty of Law">Hukuk Fakültesi</h3>
+            <p>Dokuz Eylül Üniversitesi | İzmir</p>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="publications">
+        <p class="section-label" data-tr="Yayınlar" data-en="Publications">Yayınlar</p>
+        <ul>
+          <li><em>Avrupa Birliği ve Türk Hukukunda Çok Uluslu Şirketlerin İflası</em> – Güncel Yayınevi (ISBN: 9789756187258)</li>
+          <li><em>Medenî Hukukta ve Ticaret Hukukunda Uyuşmazlık Çözümüne İlişkin Alternatif Usûller Üzerine Yeşil Kitap</em> (Çev. Evrim Erişir/Ceren Tekin) – MİHDER 2008/1, s. 131-165</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section contact-section">
+    <div class="container">
+      <p class="section-label center" data-tr="İletişim" data-en="Contact">İletişim</p>
+      <h2 class="center" data-tr="Bize Ulaşın" data-en="Get in Touch">Bize Ulaşın</h2>
+      <div class="contact-grid">
+        <div class="contact-card">
+          <div class="contact-icon">🇹🇷</div>
+          <h3 data-tr="Türkiye Ofisi" data-en="Turkey Office">Türkiye Ofisi</h3>
+          <p><strong>Tekin Legal Office</strong></p>
+          <p>İzmir, Türkiye</p>
+          <p><a href="mailto:avukatcerentekin@gmail.com">avukatcerentekin@gmail.com</a></p>
+          <p><a href="tel:+905325073812">+90 532 507 38 12</a></p>
+        </div>
+        <div class="contact-card">
+          <div class="contact-icon">🇺🇸</div>
+          <h3 data-tr="ABD / Florida" data-en="USA / Florida">ABD / Florida</h3>
+          <p><strong>Miami, Florida</strong></p>
+          <p data-tr="LLM – Miami Üniversitesi" data-en="LLM – University of Miami">LLM – Miami Üniversitesi</p>
+          <p><a href="mailto:avukatcerentekin@gmail.com">avukatcerentekin@gmail.com</a></p>
+        </div>
+        <div class="contact-card">
+          <div class="contact-icon">📬</div>
+          <h3 data-tr="Randevu" data-en="Appointment">Randevu</h3>
+          <p data-tr="Danışmanlık görüşmesi için aşağıdaki iletişim kanallarından bize ulaşabilirsiniz." data-en="You may reach us through the contact details below for a consultation.">Danışmanlık görüşmesi için iletişim bilgilerimizi kullanabilirsiniz.</p>
+          <a href="mailto:avukatcerentekin@gmail.com" class="cta-btn small" data-tr="E-posta Gönder" data-en="Send Email">E-posta Gönder</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-inner">
+      <span class="logo-text small">TEKIN <span class="logo-legal">LEGAL</span></span>
+      <p data-tr="© 2026 Tekin Legal Office. Tüm hakları saklıdır." data-en="© 2026 Tekin Legal Office. All rights reserved.">© 2026 Tekin Legal Office. Tüm hakları saklıdır.</p>
+    </div>
+  </footer>
+
+  <script>
+    /* ---- Language Toggle ---- */
+    let currentLang = 'tr';
+
+    function toggleLang() {
+      currentLang = currentLang === 'tr' ? 'en' : 'tr';
+      document.documentElement.setAttribute('data-lang', currentLang);
+      document.getElementById('lang-label').textContent = currentLang === 'tr' ? 'EN' : 'TR';
+
+      document.querySelectorAll('[data-tr]').forEach(el => {
+        if (el.tagName === 'A' || el.tagName === 'BUTTON' || el.tagName === 'SPAN' || el.tagName === 'P' || el.tagName === 'H2' || el.tagName === 'H3' || el.tagName === 'LI') {
+          el.textContent = currentLang === 'tr' ? el.getAttribute('data-tr') : el.getAttribute('data-en');
+        }
+      });
+
+      document.querySelectorAll('[data-lang-tr]').forEach(el => el.style.display = currentLang === 'tr' ? '' : 'none');
+      document.querySelectorAll('[data-lang-en]').forEach(el => el.style.display = currentLang === 'en' ? '' : 'none');
+    }
+
+    /* ---- Tab Switcher ---- */
+    function switchTab(e, id) {
+      document.querySelectorAll('.tab-panel').forEach(p => p.style.display = 'none');
+      document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+      document.getElementById('tab-' + id).style.display = '';
+      e.target.classList.add('active');
+    }
+
+    /* ---- Mobile Menu ---- */
+    function toggleMenu() {
+      document.getElementById('mobile-menu').classList.toggle('open');
+    }
+
+    /* ---- Navbar scroll ---- */
+    window.addEventListener('scroll', () => {
+      document.getElementById('navbar').classList.toggle('scrolled', window.scrollY > 60);
+    });
+
+    /* ---- Intersection Observer for animations ---- */
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
+    }, { threshold: 0.1 });
+    document.querySelectorAll('.service-card, .timeline-item, .contact-card').forEach(el => observer.observe(el));
+  </script>
+</body>
+</html>
